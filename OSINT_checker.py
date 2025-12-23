@@ -9,8 +9,8 @@ load_dotenv()
 
 PROXY_CHECK_URL = "https://proxycheck.io/v2/{{IP}}?vpn=1&asn=1"
 VIRUSTOTAL_URL = "https://www.virustotal.com/api/v3/ip_addresses/"
+IPDB_URL = 'https://api.abuseipdb.com/api/v2/check'
 INPUT_PATH = "./input"
-
 CACHE_MALICIOUS_PATH = "./ip_malevoli.json"
 CACHE_BENIGN_PATH = "./ip_benigni.json"
 
@@ -40,6 +40,9 @@ def get_data_from_json(key: str, data: dict) -> str:
     except Exception:
         return "-"
 
+def check_abuse_ipdb(response:str): 
+    decoded = json.loads(response)
+    return int(decoded['data']['abuseConfidenceScore'])>1
 
 def print_proxycheck_responose(data: dict, is_ioc: bool = False, print: bool = True):
     console = Console()
@@ -138,6 +141,8 @@ def save_ip_cache(path: str, ip_set: set):
 
 
 VT_TOKEN = os.getenv("VIRUS_TOTAL_KEY")
+IPDB_TOKEN =  os.getenv("ABUSEIPDB_KEY")
+
 parser = argparse.ArgumentParser(
     description="Analizza uno o più IP sulla base di diverse fonti OSINT"
 )
@@ -196,10 +201,13 @@ for ip in input:
 
     if VT_TOKEN is not None:
         response = requests.get(url, headers=headers)
+        ipdbresponse = requests.get(url=IPDB_URL, 
+                                  params={ 'ipAddress': ip, 'maxAgeInDays': '90'}, 
+                                  headers={'Accept': 'application/json', 'Key': IPDB_TOKEN})
         try:
             is_sus = print_virustotal_response(
                 response.json()["data"]["attributes"], print=not verbose
-            )
+            ) and check_abuse_ipdb(ipdbresponse.text)
         except Exception:
             is_sus = False
 
@@ -234,3 +242,4 @@ if len(MALEVOLI):
     print("\n".join(MALEVOLI))
 else:
     print("nessun host è considerato malevolo")
+
