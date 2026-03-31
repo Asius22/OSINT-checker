@@ -25,7 +25,11 @@ def salva_tutto():
         # 4) Salvo le cache aggiornate a fine esecuzione
     utils.save_ip_cache(CACHE_MALICIOUS_PATH, known_malicious)
     utils.save_ip_cache(CACHE_BENIGN_PATH, known_benign)
-
+    if len(MALEVOLI):
+        print("\n".join(MALEVOLI))
+    else:
+        print("nessun host è considerato malevolo")
+        
 parser = argparse.ArgumentParser(
     description="Analizza uno o più IP sulla base di diverse fonti OSINT"
 )
@@ -127,9 +131,5 @@ for ip in input:
         known_benign.add(ip)
 
 salva_tutto()
-# 5) Output finale
-if len(MALEVOLI):
-    print("\n".join(MALEVOLI))
-else:
-    print("nessun host è considerato malevolo")
+
 
