@@ -1,7 +1,6 @@
 import re
 import html
-import argparse
-
+import pyperclip
 
 def convert_bold(text: str) -> str:
     """
@@ -20,6 +19,13 @@ def convert_markdown_to_html(input_file: str, output_file: str) -> None:
             line = line.rstrip("\n")
             if len(line)<= 0:
                 continue
+            
+            if line.startswith("-"):
+                text = line.replace("-", "").strip()
+                html_lines.append(f"<ul><li>{text}</li></ul>")
+                continue
+                
+            
             if line.strip() == "```jsx":
                 inside_code_block = True
                 code_buffer = []
@@ -48,20 +54,19 @@ def convert_markdown_to_html(input_file: str, output_file: str) -> None:
                 text = match.group(2).strip()
                 text = convert_bold(html.escape(text))
                 html_lines.append(f"<h{level}>{text}</h{level}>")
-
-
             else:
                 text = convert_bold(html.escape(line))
                 text = text.replace("`", "")
                 html_lines.append(f"<p>{text}</p>")
 
     with open(output_file, "w", encoding="utf-8") as outfile:
-        outfile.write("\n".join(html_lines))
-
+        text = "\n".join(html_lines)
+        outfile.write(text)
+        pyperclip.copy(text)
 
 def main():
 
-    convert_markdown_to_html('input', 'output')
+    convert_markdown_to_html('commento.md', 'output')
 
 
 if __name__ == "__main__":
