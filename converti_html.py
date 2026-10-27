@@ -23,7 +23,7 @@ def convert_markdown_to_html(input_file: str, output_file: str) -> None:
             line = line.rstrip("\n")
 
             # CODE BLOCK
-            if line.strip() == "```jsx" or line.strip() == "```":
+            if line.strip() == "```jsx" or (line.strip() == "```" and inside_code_block == False):
                 # Se c'era una lista aperta, la chiudo
                 if inside_list:
                     html_lines.append("</ul>")
