@@ -2,6 +2,8 @@
 __pycache__/
 *.py[codz]
 *$py.class
+valtellina
+workbook
 .vscode
 # C extensions
 *.so
