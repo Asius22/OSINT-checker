@@ -1,0 +1,53 @@
+Commmento: lista di righe che conterranno analisi per singola riga.
+
+parametro globale **Riga** coostruito con una query che legge i parametri VPN, MALEVOLO, selecteduser, ip, accessi riusciti, correct password, e crea la riga da aggiungere
+
+pulsante conferma: Bullet link con style: button. setta il parametro Commento = {Commento}\n{Riga}. funziona al click quindi possiamo darlo per funzionante
+
+OoptionGroup:
+- VPN: si/no
+- qualeVPN: text opzionale se VPN == si. 
+- MALEVOLO: si/no
+- ACCESSO RIUSCITO: si/no
+
+Riga: 
+- {SelectedUser}: si riscontra tentativo di connessione da indirizzo IP {SelectedIP}. L'indirizzo [è,NON è] associato a VPN NON Aziendale (qualeVPN). L'indirizzo (NON)risulta malevolo. (se segnalazoine == si) si apre segnalazione all'ente
+
+```
+let User = '{SelectedUser}';
+let IP = '{IPAddress}';
+let IsVPN = '{isVPN:value}';
+let VPNName = '{VPNName:value}';
+let IsMalicious = '{IsMalicious:value}';
+let IsSegnalazione = '{IsSegnalazione:value}';
+print Commento = strcat(
+    "- ", User,
+    ": si riscontra tentativo di connessione dall'indirizzo IP [", IP, "]. ",
+    case(
+        IsVPN == "si",
+            strcat(
+                "L'indirizzo è associato a una VPN non aziendale",
+                iff(isnotempty(VPNName), strcat(" (", VPNName, ")"), ""),
+                ". "
+            ),
+        IsVPN == "no",
+            "L'indirizzo NON risulta associato a VPN non aziendale. ",
+        "L'associazione a servizi VPN non è stata verificata. "
+    ),
+    case(
+        IsMalicious == "si",
+            "L'indirizzo risulta malevolo da fonti OSINT ",
+        IsMalicious == "no",
+            "L'indirizzo NON risulta malevolo da fonti OSINT ",
+        "La reputazione dell'indirizzo non è stata verificata. "
+    ),
+    case(
+        IsSegnalazione == "si",
+            "Si procede con l'apertura di una segnalazione all'ente.",
+        IsSegnalazione == "no",
+            "",
+        ""
+    )
+)
+
+```

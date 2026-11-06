@@ -1,0 +1,549 @@
+{
+  "$RPOBGSN.exe": [
+    "P-CZUBA-00901SP"
+  ],
+  "AQDBServerMonitor.exe": [
+    "SRVNK-HL7"
+  ],
+  "AnyDesk.exe": [
+    "BOPDAA-02100S",
+    "CHENDA-02182SP",
+    "CHRADA-00015SP",
+    "CHRADA-00135SPP",
+    "CVLANA-03070SP",
+    "LIREVWP055171SP",
+    "MOCPSA-00031SP",
+    "MOLTENI-CH24",
+    "MORADA-00039SP",
+    "MORADA-00051SP",
+    "MORADA-00578SP",
+    "P-MPEWP055041SP",
+    "P-SFERRAS0526",
+    "SNCHTA-04568SP",
+    "SNENDA-02812SP",
+    "SNLANA-00442SP",
+    "SNRADA-00403SP",
+    "SNRADA-00409SP",
+    "SNRADWP055166SP",
+    "SOAICA-01607SP",
+    "SOAUFA-05061N",
+    "SOFLEETA-02350S",
+    "SOLAPA-00014SP",
+    "SOPOAA-02041SP",
+    "SORADA-00061SP",
+    "SORADA-00069SP",
+    "SORADWS11S",
+    "SOSIAA-01432SP",
+    "SOSIAA-01969SP",
+    "SOSIAA-04317SP",
+    "SOTRAA-00096",
+    "SOUFA8CC0311VCS",
+    "dovoipa-01604"
+  ],
+  "ArubaSign.exe": [
+    "MOPSOA-04701SP",
+    "SOSIAA-05053SP",
+    "SOTRAA-01605SP"
+  ],
+  "AutoUpdater.exe": [
+    "SNRADWS13S"
+  ],
+  "B012PAllineamentoClient.exe": [
+    "BODSSA-02028SP",
+    "MOAUPA-02999SP",
+    "P-ETAN47190SP",
+    "P-STEMA-01882SP",
+    "SNARUA-00466SP",
+    "SNARUA-04506SP",
+    "SNARUA-04519SP",
+    "SNAUFA-00436SP",
+    "SNMDLA-05234SP",
+    "SOACGA-00063SP",
+    "SOACGA-00438SP",
+    "SOACGA-04520SP",
+    "SOARUA-04746SP",
+    "SOARUA-05078SP",
+    "SOARUA-05540SP",
+    "SOARUA-06007SP",
+    "SOARUWP054290SP",
+    "SOATEA-00597SP",
+    "SOAUC047237SP",
+    "SOAUCA-04314SP",
+    "SOAUCA-04472SP",
+    "SOAUCA-04476SP",
+    "SOAUCA-04510SP",
+    "SOAUF047240SP",
+    "SOAUFA-04758SP",
+    "SOAUFA-04767SP",
+    "SOAUFWP054268SP",
+    "SOAUGA-06005SP",
+    "SOAURA-00021SP",
+    "SOAURA-00062SP",
+    "SOAURA-05772SP",
+    "SOMDLA-02343SP",
+    "SOMDLA-03584SP",
+    "SOMDLA-04155SP",
+    "T-AOTTA-05935S"
+  ],
+  "CDSTART.EXE": [
+    "SNPOAA-03031SP"
+  ],
+  "CefViewWing.exe": [
+    "P-FVERAS0541S"
+  ],
+  "CheckIn.exe": [
+    "SNLANA-05230S",
+    "SOLANA-00022SP"
+  ],
+  "DMSURI.exe": [
+    "DMSURIS_SO"
+  ],
+  "DellInstaller_x64.exe": [
+    "RADVSOC01"
+  ],
+  "DuckDuckGo.WebView.exe": [
+    "MOLANA-03225SP"
+  ],
+  "EndoxWeb.ClientService.Print.exe": [
+    "CHENDA-02182SP",
+    "SOENDA-03561SP"
+  ],
+  "EnterpriseImagingLauncher.exe": [
+    "SNRADA-00409SP",
+    "SOMENA-04699SP",
+    "SORDTA-05097SP",
+    "SORDTA-05582SP"
+  ],
+  "EventAgent.Service.exe": [
+    "G6MY731000KD"
+  ],
+  "EzvizStudio.exe": [
+    "SOPORA-05108SP"
+  ],
+  "Grammarly.Desktop.exe": [
+    "SORDTA-05607SP"
+  ],
+  "HPAssessAndRespond.exe": [
+    "P-SFERRAS0526",
+    "P-SPATAS0522",
+    "P-VCURAS0525S",
+    "SOBOCAS0542S"
+  ],
+  "Help1st.exe": [
+    "SNCOVA-02534SP"
+  ],
+  "InfocertSignDesktop.exe": [
+    "SOAURA-05772SP"
+  ],
+  "Joplin.exe": [
+    "P-RCONSAS0524",
+    "P-RDELZAS0519"
+  ],
+  "Lmi_Rescue_srv.exe": [
+    "SOAUPA-01911S"
+  ],
+  "LocalServiceManager.exe": [
+    "SOLAPA-00012S"
+  ],
+  "Maggioli_Agent.exe": [
+    "P-BPED47533SP",
+    "P-CZUBA-00901SP",
+    "P-VRODA-04446S",
+    "SOAAGA-02115SP",
+    "SOAAGA-04538SP",
+    "SOAAGA-05101SP",
+    "SOAAGA-05539SP",
+    "SOAAGWP054235SP",
+    "SOAAGWP054251SP",
+    "SOACGWP54200SP",
+    "SOADAA-03083SP",
+    "SOADAA-04736SP",
+    "SOADGA-03090SP",
+    "SOADMWP054258SP",
+    "SOADSA-03094SP",
+    "SOAGTWP054248SP",
+    "SOAGTWP054259SP",
+    "SOAICWP054293SP",
+    "SOAPRA-00109SP",
+    "SOAPRA-02173SP",
+    "SOAPRA-03228SP",
+    "SOAPRA-03735SP",
+    "SOAPRA-05071SP",
+    "SOARUA-02289SP",
+    "SOATEA-00597SP",
+    "SOAUCA-04472SP",
+    "SOAUCA-04510SP",
+    "SOAUFA-04763SP",
+    "SOAUG047243SP",
+    "SOAUPA-01911S",
+    "SOAUPA-04714SP",
+    "SODSSA-04270SP",
+    "SODSSA-04724SP",
+    "SODSSA-04778SP",
+    "SOSCAA-00560SP",
+    "SOSCAA-04664S",
+    "SOSCAA-04781SP",
+    "T-AOTTA-05935S",
+    "T-DACQA-05739S"
+  ],
+  "Namirial Sign.exe": [
+    "MOSRTA-01427SP"
+  ],
+  "OneBUpdateService.exe": [
+    "P-GREDA-05198SP"
+  ],
+  "PCHelpSoftDriverUpdater.exe": [
+    "P-SONEF46695SP"
+  ],
+  "PortfolioPerformance.exe": [
+    "SNADSWP055160SP"
+  ],
+  "Priamo.Win.WebInterop.exe": [
+    "CHRADWS12S",
+    "SNRADA-00101SP",
+    "SNRADWS15S",
+    "SORADWS16S",
+    "SORADWS20S"
+  ],
+  "PrinterService.exe": [
+    "BOFRAA-05503SP",
+    "BOSRT12345N",
+    "DOPOAA-05775SP",
+    "LISCAA-04471SP",
+    "MOPOAA-04757SP",
+    "MOSRTA-05371SP",
+    "P-MMOSA-06572SP",
+    "P-SOMENA-06253S",
+    "SNAGTA-03769SP",
+    "SNFARA-05345SP",
+    "SNODCA-05469SP",
+    "SOADMA-01441SP",
+    "SOADSA-05577SP",
+    "SOOCUA-04309SP",
+    "SOPATA-05613SP",
+    "TICDCA-05494SP",
+    "TICDCA-05500SP",
+    "TICDCA-05509SP"
+  ],
+  "QCefAppx64.exe": [
+    "SOPORA-05108SP"
+  ],
+  "RootUpdater.exe": [
+    "P-MBARA-00974SP",
+    "SNAGTA-01636SP",
+    "SNMEGA-00108SP",
+    "SNMEGA-03764SP",
+    "SOAUQA-03560SP",
+    "SOTRAA-00600S"
+  ],
+  "SQLPS.exe": [
+    "SRVMOSAIQ"
+  ],
+  "STATUS.EXE": [
+    "SOAURA-05772SP"
+  ],
+  "Seagull.PrinterDriver.UpdateAlert.exe": [
+    "SOTRAA-05075SP"
+  ],
+  "Setup.exe": [
+    "SNFLEETA-02461N",
+    "SOADIA-04488SP",
+    "SOMENA-06037SP",
+    "SOSIAA-04317SP",
+    "SOSIAA-04697N"
+  ],
+  "SqlServerExtension.Service.exe": [
+    "srvRefertiTAO"
+  ],
+  "SupportAssistInstaller.exe": [
+    "RADVSOC01"
+  ],
+  "SysInfoCap.exe": [
+    "P-NDAV002679N"
+  ],
+  "VoicePanel.exe": [
+    "CHNPIA-00098SP",
+    "CHNPIA-01431SP",
+    "TINPIA-02087SP"
+  ],
+  "Wispr Flow.exe": [
+    "P-SOPSOA-06233S"
+  ],
+  "architect-setup.exe": [
+    "CHPOAA-04523SP",
+    "P-CCASWP054008SP",
+    "SNAGTA-05217NP",
+    "SNAPRA-04790SP",
+    "SNARIA-04772SP",
+    "SNAUFA-04617SP",
+    "SNAUFA-04618SP",
+    "SNAUFA-04629SP",
+    "SNAUFA-04633SP",
+    "SNAURA-02496SP",
+    "SNLANA-04497SP",
+    "SNRADA-03574SP",
+    "SNRRFA-02519SP",
+    "SOCHGA-04502SP",
+    "SONEUA-04499SP",
+    "SOSSUA-03237SP"
+  ],
+  "arubasdk.exe": [
+    "SNCHTA-03046SP",
+    "SNMDSA-03577SP",
+    "SNMDSA-05200SP",
+    "SNMEGA-03502SP",
+    "SOOTOA-02801SP",
+    "SOPOAA-02065SP",
+    "SOUROA-04656SP"
+  ],
+  "call_paz.exe": [
+    "SNPSOA-01704N"
+  ],
+  "chrome.exe": [
+    "MOCONA-00028SP",
+    "MOPOAA-02287SP",
+    "P-SODSSA-06574S",
+    "SNADMA-04552SP",
+    "SNADMA-04577SP",
+    "SNARUA-04519SP",
+    "SNCPLA-04791SP",
+    "SNPNEA-04574SP",
+    "SOADMA-01441SP",
+    "SOAPRA-03886SP",
+    "SOAUFA-05061N",
+    "SOCHGA-04502SP",
+    "SOCOTA-05569SP",
+    "SONEUA-04494SP",
+    "SOOCUA-02804SP",
+    "SOPOAA-02015SP",
+    "SOPOAA-02938SP",
+    "SOPORWP055180SP",
+    "SOPSOA-05102SP",
+    "SORRFA-03586SP"
+  ],
+  "claude.exe": [
+    "DOCONA-00078SP",
+    "SOLANWP055205SP",
+    "SOMENWS12S",
+    "T-GGIUA-05934S"
+  ],
+  "cmd.exe": [
+    "SNORTA-03756SP",
+    "SOPSOA-05102SP"
+  ],
+  "dllhost.exe": [
+    "BECDCA-03527SP",
+    "BOPDAA-02100S",
+    "LISCAA-04471SP",
+    "MOAUIA-02962SP",
+    "MOCARA-03899SP",
+    "MOCPLA-02510SP",
+    "MOCPSA-00091SP",
+    "MOCPSA-00565SP",
+    "MOLANA-03222SP",
+    "MOMEGA-03223SP",
+    "MOMEGA-03234SP",
+    "MOPOAA-03230SP",
+    "MOPORWP055195SP",
+    "MOPSOA-02950SP",
+    "MOPSOA-02994SP",
+    "MOPSOA-02997SP",
+    "MORADWS11S",
+    "MORICA-03897SP",
+    "MOSUBA-03098SP",
+    "P-BOSCAA-05957N",
+    "P-MOODCA-06551S",
+    "P-SNANRA-06541S",
+    "P-SOBOCA-06579S",
+    "P-SOOGIA-06002S",
+    "SNADMA-02543NP",
+    "SNBOCA-02545SP",
+    "SNCUPA-02563SP",
+    "SNPOAA-03078SP",
+    "SNPOAA-03109SP",
+    "SNPSOA-02302SP",
+    "SNRIOA-03056SP",
+    "SNRRFA-02566SP",
+    "SOAUF047240SP",
+    "SOCDCA-05353SP",
+    "SONPIWP054244SP",
+    "SOONCA-03498SP",
+    "SOPSOA-02992SP",
+    "SOPSOA-05102SP",
+    "SOSSUA-03237SP",
+    "TIAMMA-03027SP",
+    "TINPIA-02404SP",
+    "TIPOAA-03256SP",
+    "TISCAA-04675SP"
+  ],
+  "file-jp2-load.exe": [
+    "SOAURA-05772SP"
+  ],
+  "libcrypto-3-x64.dll": [
+    "SORADWS20S"
+  ],
+  "mscopilot_proxy.exe": [
+    "P-SOCARA-06208S",
+    "SOMENA-04688SP",
+    "SONPIA-02816SP"
+  ],
+  "msedge.exe": [
+    "CHVACA-02330SP",
+    "CVREVA-03059SP",
+    "DOFRAA-00032SP",
+    "MOCPSA-02117SP",
+    "MOPSOA-04701SP",
+    "MOSUBA-03538SP",
+    "P-SNANRA-06541S",
+    "P-SOMEGA-05542S",
+    "P-SPATAS0522",
+    "P-VCURAS0525S",
+    "SNCHTA-00111SP",
+    "SNCHTA-03762SP",
+    "SNCHVA-04586SP",
+    "SNMEGA-03764SP",
+    "SNNCHA-03915SP",
+    "SNPSOA-05328SP",
+    "SNPSOA-05492SP",
+    "SNSSUA-00444SP",
+    "SOCAIA-05255SP",
+    "SOCDCA-05351SP",
+    "SOCHGA-04502SP",
+    "SOCUPA-00344SP1",
+    "SOENDA-03717SP",
+    "SOLANA-04321SP",
+    "SOODOA-04161SP",
+    "SOPEDA-02061SP",
+    "SOPSIA-03547SP",
+    "SOPSOA-02301SS",
+    "SOPSOA-05614SP",
+    "SORADWS20S",
+    "SOSCAA-04536S",
+    "SOSIAA-04317SP",
+    "SOSRTA-01376SP",
+    "SOTRAA-02191SP",
+    "SOUFA8CC0311VF9",
+    "TISRTA-01702SP"
+  ],
+  "msedgewebview2.exe": [
+    "BOCONA-02053SP",
+    "BODSSA-02056SP",
+    "BONPIA-00107SP",
+    "CHCONA-01618SP",
+    "CHNPIA-01545SP",
+    "CHORTA-03106SP",
+    "CHPORWP055198SP",
+    "CHRADA-00125SP",
+    "CHVACA-02330SP",
+    "DOFRAA-00032SP",
+    "MOCPLA-03603SP",
+    "MOCPSA-02954SP",
+    "MONPIA-01651SP",
+    "MOREVA-00575SP",
+    "P-ESPRA-06588SP",
+    "P-NPIA-00978SP",
+    "P-SEGCOVID47163SP",
+    "P-SNMINA-05971S",
+    "P-SNOGIA-06180S",
+    "P-SNRIOA-05983S",
+    "P-SOMEGA-05542S",
+    "P-SONEUA-05543S",
+    "P-SONPI47778S",
+    "P-SPATAS0522",
+    "P-VCURAS0525S",
+    "SNCOVA-04594SP",
+    "SNCOVA-05222SP",
+    "SNMDSA-03577SP",
+    "SNMEGA-00108SP",
+    "SNOGIA-02392SP",
+    "SNORTA-03040SP",
+    "SNPORA-02452NP",
+    "SNRADWP055166SP",
+    "SNTISA-02485SP",
+    "SOADAA-02023SP",
+    "SOADMA-02110SP",
+    "SOADMA-04313S",
+    "SOAECA-05591SP",
+    "SOAICA-01607SP",
+    "SOAUC047237SP",
+    "SOAUFA-04758SP",
+    "SOAURA-00062SP",
+    "SOCARA-03111SP",
+    "SOCARA-04539SP",
+    "SOCPSA-02104SP",
+    "SOCPSA-02131SP",
+    "SOCUCA-01888S",
+    "SOCUPA-02060SP",
+    "SOCUPA-05580SP",
+    "SODSSA-04779SP",
+    "SOFARA-00554SP",
+    "SOLANWP055205SP",
+    "SONEFA-05251SP",
+    "SONEUA-04494SP",
+    "SONEUA-04522SP",
+    "SONIDA-03495SP",
+    "SONPIWP054241SP",
+    "SOORTA-00003SP",
+    "SOORTA-03073SP",
+    "SOPANA-02727SP",
+    "SOPORA-03575SP",
+    "SOPORA-05108SP",
+    "SOPSIA-03530SP",
+    "SOSCAA-04536S",
+    "SOUFA8CC0311VF9",
+    "T-TTRIA-03635S",
+    "TICUPA-01818SP",
+    "TIPRTA-02328SP",
+    "TISRTA-01702SP"
+  ],
+  "ossec-agent.exe": [
+    "HPIMC"
+  ],
+  "powershell.exe": [
+    "CHPONTEA-02920",
+    "P-GLETAS0527S",
+    "SOSSUA-03237SP"
+  ],
+  "powershell_ise.exe": [
+    "P-RCONSAS0524",
+    "dc2so2019"
+  ],
+  "pwsh.exe": [
+    "P-SPATAS0522"
+  ],
+  "sgpfront.exe": [
+    "BOCUPA-02124SP"
+  ],
+  "shift.exe": [
+    "MOCONA-02849SP"
+  ],
+  "tslupdaterclient.exe": [
+    "SOAAGA-02115SP",
+    "SOAAGA-02290SP",
+    "SOAAGA-05539SP"
+  ],
+  "update.exe": [
+    "SOAUQA-03560SP"
+  ],
+  "updater.exe": [
+    "MPSA-03569",
+    "P-SPATAS0522"
+  ],
+  "updaterInstaller.exe": [
+    "SOAAGA-02115SP",
+    "SOAAGA-02290SP"
+  ],
+  "w11mdp.dll": [
+    "BODSSA-02056SP",
+    "P-SOCARA-06208S",
+    "SOMENA-04688SP",
+    "SONPIA-02816SP"
+  ],
+  "w3wp.exe": [
+    "quani2019"
+  ],
+  "wsmprovhost.exe": [
+    "HPIMC",
+    "P-SOMEGA-06242S"
+  ]
+}

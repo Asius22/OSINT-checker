@@ -1,3 +1,7 @@
+import truststore
+truststore.inject_into_ssl()
+
+import requests
 from datetime import datetime
 import os, json, requests, argparse  # type: ignore
 from rich.console import Console  # type: ignore

@@ -1,0 +1,70 @@
+## Descrizione
+L’allarme viene generato quando un processo tenta di accedere a informazioni critiche di sistema, come componenti del kernel, registri di sistema o directory sensibili. Tale comportamento può indicare attività potenzialmente malevole o l’esecuzione di applicativi che richiedono privilegi elevati.
+
+## Triage
+Dall’analisi del log risulta l'esecuzione dei seguenti software dalle macchine correlate:
+- **chrome.exe**: ["SOCHGA-04502SP","SNCPLA-04791SP","MOCONA-00028SP","MOPOAA-02287SP","SOPSOA-05102SP","SNADMA-04577SP","SOPORWP055180SP","SOPOAA-02015SP"]
+- **PortfolioPerformance.exe**: ["SNADSWP055160SP"]
+- **dllhost.exe**: ["SOCDCA-05353SP","P-BOSCAA-05957N","MOPSOA-02994SP","P-SOOGIA-06002S","SNADMA-02543NP","SNBOCA-02545SP","SOPSOA-05102SP","SNPOAA-03078SP","BOPDAA-02100S","MOPSOA-02950SP","MOSUBA-03098SP","SONPIWP054244SP","TISCAA-04675SP","MORICA-03897SP","MORADWS11S","MOPORWP055195SP"]
+- **CefViewWing.exe**: ["P-FVERAS0541S"]
+- **arubasdk.exe**: ["SOUROA-04656SP","SNMDSA-03577SP","SOOTOA-02801SP","SNCHTA-03046SP"]
+- **Namirial Sign.exe**: ["MOSRTA-01427SP"]
+- **$RPOBGSN.exe**: ["P-CZUBA-00901SP"]
+- **updater.exe**: ["MPSA-03569"]
+- **Help1st.exe**: ["SNCOVA-02534SP"]
+- **EnterpriseImagingLauncher.exe**: ["SNRADA-00409SP","SORDTA-05097SP","SORDTA-05582SP"]
+- **SqlServerExtension.Service.exe**: ["srvRefertiTAO"]
+- **VoicePanel.exe**: ["CHNPIA-01431SP","TINPIA-02087SP","CHNPIA-00098SP"]
+- **Setup.exe**: ["SOADIA-04488SP","SOMENA-06037SP","SOSIAA-04317SP","SOSIAA-04697N"]
+- **update.exe**: ["SOAUQA-03560SP"]
+- **claude.exe**: ["DOCONA-00078SP","SOMENWS12S"]
+- **file-jp2-load.exe**: ["SOAURA-05772SP"]
+
+
+I software riportano i seguenti filehash:
+- **\Device\HarddiskVolume3\Program Files\Google\Chrome\Application\chrome.exe**: ["DB75962AE7A258C5DFA4F558BD8B7D04F2FED03F
+E5C9ED800862EA76944787F09D693D19961A0985
+663C3578D7621B11B96B6864B37DCE0E7008BF3A"]
+- **\Device\HarddiskVolume4\Users\marco.mosconi\Documents\portfolio\PortfolioPerformance.exe**: ["7B9A41CBC835765C7DAD3965C34ABF340F508431"]
+- **\Device\HarddiskVolume3\Windows\System32\dllhost.exe**: ["A377B3D360A81013A6347C3811346D3DA44345D2
+719AD602BDCE832562AFF58E1A037E02F7EF6404
+660E47D00AF463CDB615026565F06D9EDB896FEE
+2CE12A317BEBF8293F3544433A55D972A5967996"]
+- **\Device\HarddiskVolume3\Users\fabrizio.vercesi\AppData\LocalWondershare\Wondershare Filmora\15.6.4.20299\CefViewWing.exe**: ["5D7C33D4E8BF9F2332D3E299E5C0A95CA36C67B1"]
+- **\Device\HarddiskVolume3\Users\laura.rigamonti\AppData\Local\ArubaSdkWeb\arubasdk.exe**: ["A57B49B799996C567F92B262C3FC37FA9E713346"]
+- **\Device\HarddiskVolume4\Users\giorgia.cantoni\AppData\Local\Programs\Namirial Sign\Namirial Sign.exe**: [""]
+- **\Device\HarddiskVolume3\$Recycle.Bin\S-1-5-21-1190636148-1941980866-3248153185-4035\$RPOBGSN.exe**: ["62C29AC620713F60A6B0F13DC8C9BDEE2FBBD8BC"]
+- **\Device\HarddiskVolume4\Program Files (x86)\Google\GoogleUpdater\150.0.7863.0\updater.exe**: ["1B067B2DB27EFD93C3466EE0EDC577ED6625DEF4"]
+- **\Device\Mup\SNCOVA-02534SP\c$\Beta80\Help1st\Help1st.exe**: ["DB1576BCDEC6DA181F489779DDC7C2A122D04AF4"]
+- **\Device\HarddiskVolume4\Program Files (x86)\Agfa\Enterprise Imaging\EnterpriseImagingLauncher.exe**: ["3951243592314DCDA29ED10566E6C30A06DE70FE"]
+- **\Device\HarddiskVolume4\Program Files\Sql Server Extension\SqlServerExtension.Service.exe**: ["F2B8194F17851B1522F273FF73F6A91D00F7539A"]
+- **\Device\HarddiskVolume4\Program Files (x86)\Anastasis\VoicePanel\VoicePanel.exe**: ["24E28C53C9441387728E628640F229993161D0FB"]
+- **\Device\HarddiskVolume7\Users\francesco.tonola\AppData\Local\Temp\~bcve_setup.TMP\Setup.exe**: ["47F81310BA45EF1846A5B7EEB2FDB6A82DDBCBF7"]
+- **\Device\HarddiskVolume3\Program Files (x86)\TeamViewer\Update\update.exe**: [""]
+- **\Device\HarddiskVolume3\Users\cristina.songini\AppData\Local\AnthropicClaude\app-1.1.6041\claude.exe**: [""]
+- **\Device\HarddiskVolume3\Users\lorenzo.genini\AppData\Local\Programs\GIMP 3\lib\gimp\3.0\plug-ins\file-jp2-load\file-jp2-load.exe**: ["23A51379885A9D41E4676121E730C855D97A2A72"]
+
+
+di seguito le utenze rilevate:
+- Account ["AOVV\fabrizio.balsamo"] esegue lo script chrome.exe
+- Account ["AOVV\marco.mosconi"] esegue lo script PortfolioPerformance.exe
+- Account ["AOVV\katia.tognini"] esegue lo script dllhost.exe
+- Account ["AOVV\fabrizio.vercesi"] esegue lo script CefViewWing.exe
+- Account ["AOVV\paola.biasini"] esegue lo script arubasdk.exe
+- Account ["AOVV\giorgia.cantoni"] esegue lo script Namirial Sign.exe
+- Account ["AOVV\carmen.zubiani"] esegue lo script $RPOBGSN.exe
+- Account [""] esegue lo script updater.exe
+- Account ["AOVV\monica.depiazza"] esegue lo script Help1st.exe
+- Account ["AOVV\nadia.compagnoni"] esegue lo script EnterpriseImagingLauncher.exe
+- Account [""] esegue lo script SqlServerExtension.Service.exe
+- Account ["AOVV\marta.mogavero"] esegue lo script VoicePanel.exe
+- Account ["AOVV\francesco.tonola"] esegue lo script Setup.exe
+- Account ["AOVV\alessandra.rossodivi"] esegue lo script update.exe
+- Account ["AOVV\eleonora.ortelli"] esegue lo script claude.exe
+- Account ["AOVV\lorenzo.genini"] esegue lo script file-jp2-load.exe
+I percorsi sono coerenti con le installazioni ufficiali dei componenti identificati
+
+Analizzando il campo event target si riscontra che i software interagiscono con file congrui con l'attività dichiarata dalle documentazioni ufficiali
+
+## Conclusione
+si apre segnalazione all'ente per richiedere maggiori informazioni circa le attività riscontrate
